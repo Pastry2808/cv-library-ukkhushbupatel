@@ -14,11 +14,11 @@ public class HomePage extends Utility {
    By salaryTypeDropDown1 = By.xpath("//div[@class='hps-sal-type']/select");
    By jobTypeDropDown1 = By.xpath("//div[@class='hps-jobtype']/select");
    By findJobsButton1 = By.xpath("//div[@class='hp-search-top']/input");
-   By acceptAllCookies= By.xpath("//div[@class='action-buttons top-bottom right-column ng-star-inserted']/button[2]");
 
-   public void acceptCookies(){
-      switchToIframe(acceptAllCookies);
-      clickOnElement(acceptAllCookies);
+   public void switchToIframe(){
+      driver.switchTo().frame("gdpr-consent-notice");
+      clickOnElement(By.xpath("//div[@class='action-buttons top-bottom right-column ng-star-inserted']/button[2]"));
+      driver.switchTo().defaultContent();
    }
    public void enterJobTitle(String jobTitle){
       sendTextToElement(jobTitle1, jobTitle);

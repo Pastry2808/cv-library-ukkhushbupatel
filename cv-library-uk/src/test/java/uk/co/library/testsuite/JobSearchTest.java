@@ -12,8 +12,9 @@ public class JobSearchTest extends TestBase {
     HomePage homePage = new HomePage();
     ResultPage resultPage = new ResultPage();
 
-    @Test
+    @Test (groups = {"smoke"})
     public void verifyJobSearchResultUsingDifferentDataSet(){
+        homePage.switchToIframe();
         homePage.enterJobTitle("tester");
         homePage.enterLocation("london");
         homePage.selectDistance("10 miles");
@@ -27,8 +28,9 @@ public class JobSearchTest extends TestBase {
         String expectedResult = actualResult;
         Assert.assertEquals(actualResult,expectedResult);
     }
-    @Test
+    @Test (priority = 1)
     public void verifyJobSearchResultUsingDifferentDataSet1(){
+        homePage.switchToIframe();
         homePage.enterJobTitle("software engineer");
         homePage.enterLocation("southampton");
         homePage.selectDistance("5 miles");
@@ -41,10 +43,12 @@ public class JobSearchTest extends TestBase {
         String actualResult = resultPage.verifyTheResults();
         String expectedResult = actualResult;
         Assert.assertEquals(actualResult,expectedResult);
-    }@Test
+    }
+    @Test (groups = {"smoke"})
     public void verifyJobSearchResultUsingDifferentDataSet2(){
+        homePage.switchToIframe();
         homePage.enterJobTitle("developer");
-        homePage.enterLocation("leicester");
+        homePage.enterLocation("london");
         homePage.selectDistance("15 miles");
         homePage.clickOnMoreSearchOptionLink();
         homePage.enterMinSalary("3500");

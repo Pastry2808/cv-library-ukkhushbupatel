@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26f392bf-d568-4b79-bf52-200a678a0dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/library/driverfactory/ManageDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/library/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/library/pages/ResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/library/propertyreader/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/library/utility/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/propertiesfile/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/co/library/testbase/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/co/library/testsuite/JobSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/propertiesfile/runners/smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/co/library/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/co/library/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/co/library/testsuite/JobSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/co/library/testsuite/JobSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Homework/cv-library-ukkhushbupatel/cv-library-uk/src/test/java",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,6 +51,16 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.JobSearchTest">
+    <configuration name="C:/Homework/cv-library-ukkhushbupatel/cv-library-uk/src/test/java/propertiesfile/runners/smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="cv-library-uk" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/propertiesfile/runners/smoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JobSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="cv-library-uk" />
       <extension name="coverage">
@@ -97,10 +96,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JobSearchTest.verifyJobSearchResultUsingDifferentDataSet1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="cv-library-uk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.co.library.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.co.library.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.library.testsuite.JobSearchTest" />
+      <option name="METHOD_NAME" value="verifyJobSearchResultUsingDifferentDataSet1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobSearchTest.verifyJobSearchResultUsingDifferentDataSet2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="cv-library-uk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.co.library.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.co.library.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.library.testsuite.JobSearchTest" />
+      <option name="METHOD_NAME" value="verifyJobSearchResultUsingDifferentDataSet2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.JobSearchTest" />
+        <item itemvalue="TestNG.C:/Homework/cv-library-ukkhushbupatel/cv-library-uk/src/test/java/propertiesfile/runners/smoke.xml" />
         <item itemvalue="TestNG.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet" />
+        <item itemvalue="TestNG.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet1" />
+        <item itemvalue="TestNG.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet2" />
       </list>
     </recent_temporary>
   </component>
